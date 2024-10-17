@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bottom {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.left,
+.middle,
+.right {
+    margin: 30px;
+    color: rgb(139, 137, 137);
+
+
+}
+
+.left h2,
+.middle h2,
+.right h2 {
+    color: white;
+    cursor: default;
+
+}
+
+.right li {
+    list-style: none;
+}
+
+.middle li {
+    list-style: none;
+}
+
+.left li {
+    list-style: none;
+}
+
+.right li:hover {
+    cursor: pointer;
+    color: rgb(202, 194, 194);
+}
+
+.middle li:hover {
+    cursor: pointer;
+    color: rgb(202, 194, 194);
+}
+
+.left li:hover {
+    cursor: pointer;
+    color: rgb(202, 194, 194);
+}
